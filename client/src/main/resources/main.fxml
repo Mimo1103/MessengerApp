@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.mimo.messengerclient.Controller" stylesheets="@style.css" fx:id="primaryStage">
+    <children>
+        <Label fx:id="usernameLabel" text="Enter your username:"/>
+        <TextField fx:id="usernameField" onAction="#enteredName"/>
+        <Label fx:id="usernameRulesLabel"/>
+
+        <VBox fx:id="sidebar">
+            <Button fx:id="roomButton1" text="Room 1" onAction="#changeRoomTo1"/>
+            <Button fx:id="roomButton2" text="Room 2" onAction="#changeRoomTo2"/>
+            <Button fx:id="roomButton3" text="Room 3" onAction="#changeRoomTo3"/>
+            <Button fx:id="roomButton4" text="Room 4" onAction="#changeRoomTo4"/>
+        </VBox>
+
+        <ScrollPane fx:id="chatPane">
+            <VBox fx:id="chatBox">
+                <Pane fx:id="messagePane">
+                    <VBox fx:id="messageBox">
+                        <Label fx:id="messageName" text="xX_HavingAGoodDog_Xx"/>
+                        <Label fx:id="messageContent" text="This text is exactly 200 characters long. It's just a sentence for testing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at massa rutrum, aliquam justo non, placerat ligula. Phasellus."/>
+                    </VBox>
+                </Pane>
+            </VBox>
+        </ScrollPane>
+        <TextArea fx:id="messageFieldArea" text=""/>
+        <Label fx:id="warningLabel"/>
+
+    </children>
+</AnchorPane>
