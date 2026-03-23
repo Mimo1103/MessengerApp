@@ -13,7 +13,11 @@ A messaging application built in Java that allows users to communicate via a loc
 - JSON-based data exchange
 
 ## My contribution
-- [TO BE ADDED]
+- Implemented a client-server architecture using Spring Boot and Java
+- Developed REST API endpoints for communication
+- Implemented JSON-based rata exchange
+- Built the graphical user interface with JavaFX
+- Integrated client and server components into a working messaging system
 
 ## Technologies
 - Java
