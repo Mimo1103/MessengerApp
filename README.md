@@ -1,5 +1,5 @@
 # Overview
-A messaging application built inside Java that allows users to communicate via a locally hosted REST API.
+A messaging application built in Java that allows users to communicate via a locally hosted REST API.
 
 # How to run
 1. Launch the Server
@@ -7,17 +7,17 @@ A messaging application built inside Java that allows users to communicate via a
 3. If client connected to Server start messaging
 
 # Features
-> Server-Client communication incl. Database
-> Sending and receiving messages
-> JSON based data exchange
+- Server-Client communication including a Database
+- Sending and receiving messages
+- JSON based data exchange
 
 # Technologies
-> Java
-> Spring Boot
-> Java FX
-> Jackson
+- Java
+- Spring Boot
+- JavaFX
+- Jackson
 
 # Architecture
 The application consists of a locally hosted Server to which the Client connects to:
-> The Server is built eith Spring Boot and handles all incoming messages via a REST API.
-> The client uses JavaFX to provide a graphical user interface which allows the player to write messages and send them.
+- The Server is built with Spring Boot and handles all incoming messages via a REST API.
+- The client uses JavaFX to provide a graphical user interface which allows the player to write messages and send them.
