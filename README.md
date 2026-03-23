@@ -1,3 +1,23 @@
-This java project is a messaging app which lets users communicate via a locally hosted REST API.
-The app includes both the software for the server aswell for the clients.
-The server was made with Spring Boot and jackson, while the client uses JavaFX for a clean user interface.
+# Overview
+A messaging application built inside Java that allows users to communicate via a locally hosted REST API.
+
+# How to run
+1. Launch the Server
+2. Start the client
+3. If client connected to Server start messaging
+
+# Features
+> Server-Client communication incl. Database
+> Sending and receiving messages
+> JSON based data exchange
+
+# Technologies
+> Java
+> Spring Boot
+> Java FX
+> Jackson
+
+# Architecture
+The application consists of a locally hosted Server to which the Client connects to:
+> The Server is built eith Spring Boot and handles all incoming messages via a REST API.
+> The client uses JavaFX to provide a graphical user interface which allows the player to write messages and send them.
